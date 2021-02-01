@@ -21,7 +21,7 @@ const header = {
         position: relative;
         width: 315px;
         height: 99px;
-        background: url(../img/logo.png) no-repeat 50% 25px;
+        background: url(./img/logo.png) no-repeat 50% 25px;
 
         &:before {
           content: '';

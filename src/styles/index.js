@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const MainPage = styled.main`
   height: 100vh;
-  background-image: url(../img/bg.jpg);
+  background-image: url(./img/bg.jpg);
   background-repeat: no-repeat;
   background-position: calc(50% - 50px) top;
   background-color: black;
