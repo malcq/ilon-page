@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ilon-page/static/css/main.cc44d4c5.chunk.css",
+    "main.js": "/ilon-page/static/js/main.84e0c4fc.chunk.js",
+    "main.js.map": "/ilon-page/static/js/main.84e0c4fc.chunk.js.map",
+    "runtime-main.js": "/ilon-page/static/js/runtime-main.f356ca98.js",
+    "runtime-main.js.map": "/ilon-page/static/js/runtime-main.f356ca98.js.map",
+    "static/js/2.db9a541b.chunk.js": "/ilon-page/static/js/2.db9a541b.chunk.js",
+    "static/js/2.db9a541b.chunk.js.map": "/ilon-page/static/js/2.db9a541b.chunk.js.map",
+    "static/js/3.10634a97.chunk.js": "/ilon-page/static/js/3.10634a97.chunk.js",
+    "static/js/3.10634a97.chunk.js.map": "/ilon-page/static/js/3.10634a97.chunk.js.map",
+    "index.html": "/ilon-page/index.html",
+    "static/css/main.cc44d4c5.chunk.css.map": "/ilon-page/static/css/main.cc44d4c5.chunk.css.map",
+    "static/js/2.db9a541b.chunk.js.LICENSE.txt": "/ilon-page/static/js/2.db9a541b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ilon-page/static/media/Museosanscyrl500.fa81b23c.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f356ca98.js",
+    "static/js/2.db9a541b.chunk.js",
+    "static/css/main.cc44d4c5.chunk.css",
+    "static/js/main.84e0c4fc.chunk.js"
+  ]
+}
