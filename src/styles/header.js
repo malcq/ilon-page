@@ -5,9 +5,6 @@ const header = {
     background-color: rgba(21,10,0,.21);
     border-top: 1px solid #323339;
     border-bottom: 1px solid #323339;
-    @media (max-width: 1250px) {
-      margin-left: 10px; 
-    }
     .header-inner {
       max-width: 1200px;
       margin: 0 auto;
@@ -15,6 +12,16 @@ const header = {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       grid-template-rows: 98px;
+      @media (max-width: 1250px) {
+        margin: 0 5px;
+        padding-right: 0;
+      }
+      @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 98px;
+        grid-gap: 20px 0;
+      }
     }
   `,
   SHeaderLogo: styled.div`
@@ -47,12 +54,34 @@ const header = {
   `,
   SHeaderNav: styled.ul`
     grid-column: 6/13;
+    @media (max-width: 992px) {
+      grid-column: 7/13;
+    }
+    @media (max-width: 768px) {
+      grid-column: 1;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      margin: 10px 0;
+      grid-gap: 10px;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 490px) {
+      grid-template-columns: repeat(2, 1fr);
+      text-align: center;
+    }
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     color: #efefef;
     .header-nav {
+      &__item {
+        @media (max-width: 992px) {
+          flex: 0 0 33.33%;
+        }
+      }
       &__link {
         padding-bottom: 5px;
         &:hover {
