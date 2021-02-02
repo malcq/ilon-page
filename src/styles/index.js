@@ -3,10 +3,18 @@ import styled from 'styled-components';
 
 export const MainPage = styled.main`
   height: 100vh;
-  background-image: url(../img/bg.jpg);
+  background-image: url(./img/bg.jpg);
   background-repeat: no-repeat;
   background-position: calc(50% - 50px) top;
   background-color: black;
+
+  @media (max-width: 990px) {
+    background-image: url(./img/bg-mobile.jpg);
+  }
+
+  @media (max-width: 576px) {
+    height: auto;
+  }
 `
 
 export const SBtn = styled.a`
@@ -24,4 +32,9 @@ export const SBtn = styled.a`
   background-size: 100% 1px,100% 1px,1px 100%,1px 100%;
   background-position: 0 0,0 100%,0 0,100% 0;
   background-repeat: no-repeat;
+  @media (max-width: 990px) {
+    background: unset;
+    border: 1px solid #1a395e;
+    color: #ffffff;
+  }
 `;

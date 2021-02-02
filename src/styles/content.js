@@ -86,7 +86,7 @@ const content = {
       grid-template-columns: repeat(2, 170px);
       grid-template-rows: repeat(2, 160px);
       grid-gap: 10px;
-      @media (max-width: 992px) {
+      @media (max-width: 990px) {
         grid-template-columns: repeat(4,1fr);
         justify-content: space-between;
       }
@@ -103,6 +103,9 @@ const content = {
         flex-direction: column;
         align-items: center;
         cursor: pointer;
+        @media (max-width: 990px) {
+          padding: 5px;
+        }
         &:nth-child(1) {
           background: ${bottomRight};
           :hover {
