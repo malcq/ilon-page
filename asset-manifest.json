@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ilon-page/static/css/main.cc44d4c5.chunk.css",
-    "main.js": "/ilon-page/static/js/main.db27b022.chunk.js",
-    "main.js.map": "/ilon-page/static/js/main.db27b022.chunk.js.map",
+    "main.js": "/ilon-page/static/js/main.23f2e8fd.chunk.js",
+    "main.js.map": "/ilon-page/static/js/main.23f2e8fd.chunk.js.map",
     "runtime-main.js": "/ilon-page/static/js/runtime-main.f356ca98.js",
     "runtime-main.js.map": "/ilon-page/static/js/runtime-main.f356ca98.js.map",
     "static/js/2.db9a541b.chunk.js": "/ilon-page/static/js/2.db9a541b.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f356ca98.js",
     "static/js/2.db9a541b.chunk.js",
     "static/css/main.cc44d4c5.chunk.css",
-    "static/js/main.db27b022.chunk.js"
+    "static/js/main.23f2e8fd.chunk.js"
   ]
 }
