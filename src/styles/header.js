@@ -5,6 +5,9 @@ const header = {
     background-color: rgba(21,10,0,.21);
     border-top: 1px solid #323339;
     border-bottom: 1px solid #323339;
+    @media (max-width: 1250px) {
+      margin-left: 10px; 
+    }
     .header-inner {
       max-width: 1200px;
       margin: 0 auto;
@@ -16,12 +19,13 @@ const header = {
   `,
   SHeaderLogo: styled.div`
     grid-column: 1/6;
+    
     .header-logo{
       &__layout {
         position: relative;
         width: 315px;
         height: 99px;
-        background: url(./img/logo.png) no-repeat 50% 25px;
+        background: url(../img/logo.png) no-repeat 50% 25px;
 
         &:before {
           content: '';
